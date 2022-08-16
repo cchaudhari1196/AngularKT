@@ -1,8 +1,8 @@
 <p>{{title}}</p>
-<a>1. English</a> <br>
-<a>2. Marathi</a><br>
-<a>3. Hindi</a><br>
-<a>4. Science</a><br>
-<a>5. Spring</a><br>
-<a>6. Angular</a>
+
+<ul>
+    <li *ngFor="let course of courses">
+        {{course}}
+    </li>
+</ul>
 

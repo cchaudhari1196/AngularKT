@@ -7,4 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursesComponent {
   title = "Its the Courses Components.";
+  
+  courses = ["English", "marathi"," hindi", "Telugu", "Bengali"];
 }
