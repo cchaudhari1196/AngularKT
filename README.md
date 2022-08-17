@@ -1,5 +1,8 @@
-1. Interpolation => Interpolation is one-way data-binding technique that is used to transfer the data from a TypeScript code to an HTML template (view)
+Servie and Dependency Injection.
 
-2. We will use, variable from typescript to HTML template. (In courses component)
+1. Service is created. Its just plain ts class with method. Which will call backend. For this demo, We are just returning list hardcoded.
 
-3.
+2. In aap.module.ts -> In providers, we have to append newly created service. Otherwise error will be thrown.
+
+3. Service is injected in CoursesComponent.
+   Courses component is dependent on Courses service. i.e. CoursesComponents needs data from COursesService.
