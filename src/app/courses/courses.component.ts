@@ -7,11 +7,6 @@ import { CoursesService } from './courses.service';
   styleUrls: ['./courses.component.scss']
 })
 export class CoursesComponent {
-  title = "Its the Courses Components.";
-  courses :string[]= [];
-
-  constructor(public coursesService:CoursesService){
-    this.courses = coursesService.getCourses();
-  }
+  imageUrl:string = "https://picsum.photos/200";
   
 }
