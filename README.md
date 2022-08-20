@@ -1,8 +1,9 @@
-Servie and Dependency Injection.
+For DEmo purpose, I have used colspan property.
 
-1. Service is created. Its just plain ts class with method. Which will call backend. For this demo, We are just returning list hardcoded.
+Anctully on UI we will not see much change. But, we will get idea what it does.
 
-2. In aap.module.ts -> In providers, we have to append newly created service. Otherwise error will be thrown.
+If we used [colspan]="colspan". Then, We will get error saying - colspan is not known property.
 
-3. Service is injected in CoursesComponent.
-   Courses component is dependent on Courses service. i.e. CoursesComponents needs data from COursesService.
+Reason is bcz, colspan is property of <td> HTML element.
+
+But, angular assumes it to be property of DOM. So, we need to instruct angular that this property belong to HTML element and not DOM object.

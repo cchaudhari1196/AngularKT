@@ -7,6 +7,5 @@ import { CoursesService } from './courses.service';
   styleUrls: ['./courses.component.scss']
 })
 export class CoursesComponent {
-  imageUrl:string = "https://picsum.photos/200";
-  
+  colspan = 2;  
 }
