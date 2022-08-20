@@ -1,9 +1,11 @@
-For DEmo purpose, I have used colspan property.
+We have installed Booststarp in this branch,
 
-Anctully on UI we will not see much change. But, we will get idea what it does.
+1. First we run following cmd
 
-If we used [colspan]="colspan". Then, We will get error saying - colspan is not known property.
+   npm install bootstrap --save
 
-Reason is bcz, colspan is property of <td> HTML element.
+2. Then we
 
-But, angular assumes it to be property of DOM. So, we need to instruct angular that this property belong to HTML element and not DOM object.
+   add @import "~bootstrap/dist/css/bootstrap.css";
+
+   in styles.css or styles.scss
