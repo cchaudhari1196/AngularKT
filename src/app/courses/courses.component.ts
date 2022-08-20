@@ -7,5 +7,5 @@ import { CoursesService } from './courses.service';
   styleUrls: ['./courses.component.scss']
 })
 export class CoursesComponent {
-  colspan = 2;  
+  isActive = true;  
 }

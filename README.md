@@ -1,11 +1,6 @@
-We have installed Booststarp in this branch,
+In browser DOM we can see active class added (extra than what we have in HTML template) for Button element.
+Its because, We have used class binding.
 
-1. First we run following cmd
+[class.active]="isActive" => class 'active' will be added. If isActive flag is set. Which is true in TS file
 
-   npm install bootstrap --save
-
-2. Then we
-
-   add @import "~bootstrap/dist/css/bootstrap.css";
-
-   in styles.css or styles.scss
+If we make isActive=false, in Component.ts then, 'active' class will be removed from DOM.
