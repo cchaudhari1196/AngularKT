@@ -7,5 +7,5 @@ import { CoursesService } from './courses.service';
   styleUrls: ['./courses.component.scss']
 })
 export class CoursesComponent {
-  isActive = true;  
+  color = "Red";  
 }
