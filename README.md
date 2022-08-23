@@ -1,7 +1,5 @@
-[style.backgroundColor]="color"
+Template varibles
 
-color -> Its varaible in component.ts
-style -> its the attribute of the html element. Where we can add styles to the element.
-backgroundColor > Its one of the many style object properties.
+Wee can declare variable in HTML template with #<variable name>
 
-So, value of color attribute. i.e. Red in our case. Will be set as background color for button.
+It will simplify the syntax and also, make code more readable.
