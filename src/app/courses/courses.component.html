@@ -1,6 +1,3 @@
 <div>
-    <input type="text" (keyup.enter)="onKeyPress($event)">
-</div>
-<div>
-    <input #email type="text" (keyup.enter)="captureMail(email.value)">
+    <input type="text" [(ngModel)]="email" (keyup)="captureMail()">
 </div>

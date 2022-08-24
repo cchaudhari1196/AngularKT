@@ -1,5 +1,3 @@
-Template varibles
+Import FormModule in app.modules.ts
 
-Wee can declare variable in HTML template with #<variable name>
-
-It will simplify the syntax and also, make code more readable.
+Use Banana in the box syntax.
